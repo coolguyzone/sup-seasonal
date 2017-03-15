@@ -1,0 +1,39 @@
+{
+  "name": "sup-seasonal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolguyzone/sup-seasonal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coolguyzone/sup-seasonal/issues"
+  },
+  "homepage": "https://github.com/coolguyzone/sup-seasonal#readme",
+  "dependencies": {
+    "bcrypt-as-promised": "^1.1.0",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-validation": "^1.0.2",
+    "joi": "^10.2.2",
+    "jsonwebtoken": "^7.3.0",
+    "knex": "^0.12.7",
+    "pg": "^6.1.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "dotenv": "^4.0.0",
+    "eslint": "^3.17.1",
+    "eslint-config-ryansobol": "^10.0.2",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
+  }
+}
