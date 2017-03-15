@@ -21,3 +21,5 @@ router.get('/foods', (req, res) => {
     process.exit(1);
   });
 });
+
+module.exports = router;
