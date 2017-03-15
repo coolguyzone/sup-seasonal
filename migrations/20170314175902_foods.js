@@ -4,13 +4,13 @@ exports.up = function(knex, Promise) {
     table.increments('id');
     table.string('food_name')
       .notNullable()
+      .unique()
       .defaultTo('');
 
     table.integer('created_by')
       .notNullable()
       .references('id')
-      .inTable('users')
-      .index();
+      .inTable('users');
 
     table.timestamps(true, true);
     table.boolean('jan')
@@ -37,7 +37,7 @@ exports.up = function(knex, Promise) {
       .notNullable()
       .defaultTo(false);
 
-    table.boolean('july')
+    table.boolean('jul')
       .notNullable()
       .defaultTo(false);
 
